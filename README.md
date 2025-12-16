@@ -6,7 +6,10 @@ Notes and Writeups repository for TryHackMe.com rooms and challenges
 written in .md or .html or .txt or whatever idk
 
 follows tryhackme.com website path for directory. for example: https://tryhackme.com/room/searchskills room will have its room note @ 
-[room/searchskills.md](room/searchskills.md) and listed below
+[room/searchskills.md](room/searchskills.md) and listed below at [directory list](#directory-list)
+
+# TODO
+- [ ] notes for Linux fundamentals room, maybe or maybe just general notes
 
 # directory list:
 
