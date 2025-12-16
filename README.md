@@ -9,4 +9,4 @@ follows tryhackme.com website path for directory. for example: https://tryhackme
 
 # directory list:
 
-room/searchskills.md
+[room/searchskills.md](room/searchskills.md)
