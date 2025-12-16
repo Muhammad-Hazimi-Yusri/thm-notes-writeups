@@ -1,6 +1,10 @@
 # thm-notes-writeups
 Last updated 16 Dec 2025
 
+[My profile](https://tryhackme.com/p/muhammadhazimiyusri)
+
+![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/muhammadhazimiyusri.png)
+
 Notes and Writeups repository for TryHackMe.com rooms and challenges 
 
 written in .md or .html or .txt or whatever idk
