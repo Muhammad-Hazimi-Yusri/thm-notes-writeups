@@ -6,6 +6,7 @@ Last updated 16 Dec 2025
 ![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/muhammadhazimiyusri.png)
 
 Notes and Writeups repository for TryHackMe.com rooms and challenges 
+Also notes for pwn.college dojos but not writeups as they shouldn't be public, but I will probably note what I had done for tracking purposes here
 
 written in .md or .html or .txt or whatever idk
 
