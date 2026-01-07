@@ -45,3 +45,13 @@ for builtins commands, use help [cmd] instead
 - One problem with FIFO is that theyll block any operations on them until both read side and write side of pipe are ready.
 - that is useful because it ensure automatic sync
 - FIFO used for these benefits: 1. no disk storage, epphremeral data, auto sync, and complex data flows
+# Shell Variables
+- print shell variables with $, `echo $FLAG`, `echo $PWD` which does same as `pwd`
+- set variables without space `VAR=1337` for example.
+- both name and values of variables are case sensitive!
+- use "" for multiword var value, `GREET="HELLO WORLD"`
+- export var to put it in env var `export VAR=1337`
+- echo env var with `env` command
+- store cmd output as var with command substituion `FLAG=$(cat /flag)`
+- read input for variable with `read -p`, `read -p "INPUT: " MY_VARIABLE`, standard input is different from standard output! -p argument is used to add prompt, its optional
+- reading files to var, instead of using cat and cmd substituion, just pipe it `read VAR < some_file`
