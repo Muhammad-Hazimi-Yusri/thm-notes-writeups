@@ -55,3 +55,12 @@ for builtins commands, use help [cmd] instead
 - store cmd output as var with command substituion `FLAG=$(cat /flag)`
 - read input for variable with `read -p`, `read -p "INPUT: " MY_VARIABLE`, standard input is different from standard output! -p argument is used to add prompt, its optional
 - reading files to var, instead of using cat and cmd substituion, just pipe it `read VAR < some_file`
+# Data manipulation
+- u can use `tr` to translate charcters from first argument to second argument. can use with piping `echo OWN | tr O P` will output PWN
+- can use multi character `echo PWM.COLLAGE | tr MA NE` output PWN.COLLAGE
+- use `man tr` to check what u can do, used `/challenge/run | tr [:lower:][:upper:] [:upper:][:lower:]` to solve first challenge, swapping lower case to upper case and vice versa.
+- use -d argument to delete characters
+- transform separator to newline `echo "hello_world!" | tr _ "\n"`
+- use `head -n 5` to get first 5 lines, can use on output with piping and pipe it as input!
+- use `cut` to get specific column of data, -d for delimiter (" "), and -f for column number
+- use `sort` to order the data.
